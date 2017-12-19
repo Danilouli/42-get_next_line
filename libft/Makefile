@@ -6,7 +6,7 @@
 #    By: dsaadia <dsaadia@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/13 16:37:57 by dsaadia           #+#    #+#              #
-#    Updated: 2017/12/19 14:29:26 by dsaadia          ###   ########.fr        #
+#    Updated: 2017/12/19 15:36:55 by dsaadia          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ space := ${null} ${null}
 
 NAME = libft.a
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -Iincludes
 SRCDIR = ./
 SRCFILES = ft_astrrev.c ft_memccpy.c ft_striteri.c ft_isspacer.c\
 			ft_atoi.c ft_bzero.c ft_create_base.c ft_isalnum.c \

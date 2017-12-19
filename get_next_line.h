@@ -6,7 +6,7 @@
 /*   By: schmurz <schmurz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/30 20:42:00 by schmurz           #+#    #+#             */
-/*   Updated: 2017/12/19 14:23:27 by dsaadia          ###   ########.fr       */
+/*   Updated: 2017/12/19 15:58:37 by dsaadia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <sys/stat.h>
 # include <fcntl.h>
 # include "libft/includes/libft.h"
-# define BUFF_SIZE	5
+# define BUFF_SIZE	9999
 
 int	get_next_line(const int fd, char **line);
 

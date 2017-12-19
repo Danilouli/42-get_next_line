@@ -6,7 +6,7 @@
 /*   By: dsaadia <dsaadia@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/13 18:38:26 by dsaadia           #+#    #+#             */
-/*   Updated: 2017/12/19 14:27:42 by dsaadia          ###   ########.fr       */
+/*   Updated: 2017/12/19 15:30:50 by dsaadia          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,6 +94,5 @@ char				*ft_strstr(const char *str, const char *to_find);
 void				*ft_memccpy(void *dest, const void *src, int c, size_t n);
 int					ft_isspacer(char c);
 void				ft_troll(void);
-char				*ft_strjoindel(char *s1, char *s2);
 
 #endif
